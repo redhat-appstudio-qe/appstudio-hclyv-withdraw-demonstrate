@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-s1zf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/happy-depl-rbjp-tenant/appstudio/dc-metro-map-s1zf@sha256:f4a75a9e6cf61a4940718969d90cfe71e7ae4b6c731c94136d51d3e0a39ba8fc
+        name: my-nodejs
+        resources: {}
+status: {}
